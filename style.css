@@ -1,0 +1,48 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 15px;
+    font-family: Optima;
+    font-weight: 400;
+    color: white;
+}
+body {
+    background-color: whitesmoke;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+  
+    border-radius: 50px;
+    background-color: white;
+
+    width: 310px;
+    justify-content: space-evenly;
+    font-family: Garamond;
+    
+}
+.textOverImg2 {
+            color: white;
+            position: absolute;
+            top: 120px;
+            left: 50px;
+            font-family: Garamond;
+            font-size: 30px;
+        }
+.textOverImg {
+            color: white;
+            position: absolute;
+            top: 70px;
+            left: 500px;
+            font-family: Garamond;
+            font-size: 25px;
+        }
